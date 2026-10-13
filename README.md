@@ -7,7 +7,7 @@ Explore café sales to see which products sold the most, how sales changed by mo
 This project uses the cleaned café sales dataset from my internship project. It contains transaction details such as product, quantity, price, payment method, location, and date.
 
 ## What I did
-- Cleaned and prepared the sales data.
+- Cleaned and prepared the sales data using mySQL.
 - Checked missing values and calculated basic statistics in Excel.
 - Built charts to compare products and monthly sales.
 - Created an interactive Power BI dashboard with location and payment method filters.
@@ -26,3 +26,8 @@ This project uses the cleaned café sales dataset from my internship project. It
 
 ## What I learned
 I practised preparing data, finding patterns, and explaining results with charts and filters.
+
+## Project files
+- `cafe_sales_cleaned.csv` — cleaned the data using mySQL
+- `SWYNEX_Cafe_Sales_EDA.xlsx` — Excel analysis
+- `SWYNEX_Interactive_Dashboard.pbix` — Power BI dashboard
