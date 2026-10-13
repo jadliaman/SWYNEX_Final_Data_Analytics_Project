@@ -20,6 +20,7 @@ This project uses the cleaned café sales dataset from my internship project. It
 - Among transactions with a known date, sales were highest in June and lowest in February.
 
 ## Tools
+- mySQL
 - Microsoft Excel
 - Power BI
 
