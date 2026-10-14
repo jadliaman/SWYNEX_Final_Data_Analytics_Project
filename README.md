@@ -7,13 +7,14 @@ Explore café sales to see which products sold the most, how sales changed by mo
 This dataset contains 9,006 café transactions from 2023. Each row represents one transaction. The columns include Transaction ID, Item, Quantity, Price Per Unit, Total Spent, Payment Method, Location, and Transaction Date. Some fields contain “NULL,” which means the information was missing.
 
 ## Cleaning Process
-I used MySQL to inspect and prepare the café sales data. I checked for missing values marked “NULL” and kept them identifiable instead of treating them as real product or payment categories. For the analysis, I used an Analysis Spend value based on quantity × price per unit when Total Spent was missing.
+Using MySQL Workbench, I kept the original table and created a cleaned table. I checked for blank, ERROR, and UNKNOWN values, and checked for duplicate Transaction IDs. I changed blank, ERROR, and UNKNOWN values to NULL. I also changed Total Spent to a decimal number and Transaction Date to a date. I checked that available Total Spent values matched Quantity × Price Per Unit.
 
 ## Analysis
 I used Excel to calculate total, average, and median spending. I used PivotTables and charts to compare sales by product and month, and to count transactions by location and payment method. I left missing “NULL” values out of comparisons where the category or date was needed.
 
 ## Dashboard
 I created an dashboard in Power BI. It shows total recorded sales, average spending per transaction, and transaction count. It includes a chart comparing sales by product, a chart showing monthly sales, and filters for location and payment method. The Power BI file is SWYNEX_Cafe_Sales_Creative_Dashboard.pbix.
+
 ![Cafe Sales Dashboard](dashboard-preview.png)
 
 ## What I did
@@ -38,6 +39,7 @@ I created an dashboard in Power BI. It shows total recorded sales, average spend
 I practised preparing data, finding patterns, and explaining results with charts and filters.
 
 ## Project files
+- `cafe_sales_cleaning.sql` — MySQL cleaning queries
 - `cafe_sales_cleaned.csv` — cleaned the data using mySQL
 - `SWYNEX_Cafe_Sales_EDA.xlsx` — Excel analysis
 - `SWYNEX_Cafe_Sales_Creative_Dashboard.pbix` — Power BI dashboard
