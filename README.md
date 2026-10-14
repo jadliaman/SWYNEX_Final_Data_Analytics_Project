@@ -13,7 +13,7 @@ I used MySQL to inspect and prepare the café sales data. I checked for missing 
 I used Excel to calculate total, average, and median spending. I used PivotTables and charts to compare sales by product and month, and to count transactions by location and payment method. I left missing “NULL” values out of comparisons where the category or date was needed.
 
 ## Dashboard
-transaction count. It includes a chart comparing sales by product, a chart showing monthly sales, and filters for location and payment method. The Power BI file is SWYNEX_Cafe_Sales_Creative_Dashboard.pbix
+I created an dashboard in Power BI. It shows total recorded sales, average spending per transaction, and transaction count. It includes a chart comparing sales by product, a chart showing monthly sales, and filters for location and payment method. The Power BI file is SWYNEX_Cafe_Sales_Creative_Dashboard.pbix.
 ![Cafe Sales Dashboard](dashboard-preview.png)
 
 ## What I did
