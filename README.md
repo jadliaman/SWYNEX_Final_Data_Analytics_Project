@@ -30,4 +30,4 @@ I practised preparing data, finding patterns, and explaining results with charts
 ## Project files
 - `cafe_sales_cleaned.csv` — cleaned the data using mySQL
 - `SWYNEX_Cafe_Sales_EDA.xlsx` — Excel analysis
-- `SWYNEX_Interactive_Dashboard.pbix` — Power BI dashboard
+- `SWYNEX_Cafe_Sales_Creative_Dashboard.pbix` — Power BI dashboard
