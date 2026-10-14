@@ -14,8 +14,7 @@ I used Excel to calculate total, average, and median spending. I used PivotTable
 
 ## Dashboard
 transaction count. It includes a chart comparing sales by product, a chart showing monthly sales, and filters for location and payment method. The Power BI file is SWYNEX_Cafe_Sales_Creative_Dashboard.pbix
-![Cafe Sales Dashboard](<img width="1203" height="680" alt="dashboard-preview" src="https://github.com/user-attachments/assets/e184c175-1f06-4c79-a943-8e1dc28b264d" />
-)
+![Cafe Sales Dashboard](dashboard-preview.png)
 
 ## What I did
 - Cleaned and prepared the sales data using mySQL.
